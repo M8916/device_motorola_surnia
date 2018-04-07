@@ -31,6 +31,5 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME="Moto E LTE (2nd gen)"
 
 # Use approved GMS identifiers
-PRODUCT_BUILD_PROP_OVERRIDES += \
-    BUILD_FINGERPRINT=motorola/surnia_retus/surnia_umts:5.0.2/LXI22.50-24.1/1:user/release-keys \
-    PRIVATE_BUILD_DESC="surnia_retus-user 5.0.2 LXI22.50-24.1 1 release-keys"
+BUILD_FINGERPRINT :="motorola/surnia_retus/surnia_umts:5.0.2/LXI22.50-24.1/1:user/release-keys"
+PRIVATE_BUILD_DESC :="surnia_retus-user 5.0.2 LXI22.50-24.1 1 release-keys"
